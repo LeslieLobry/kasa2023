@@ -1,0 +1,21 @@
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+}
+.accordion{
+    display: flex;
+    background-color: #FF6060;
+    flex-basis: 100%;
+    padding: 10px;
+    border-radius: 10px;
+   
+    
+}
+.accordion-title{
+    display: flex;
+    flex-basis: 100%;
+
+}
+.chevron{
+    padding-left: 35px;
+}

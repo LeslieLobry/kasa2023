@@ -1,0 +1,35 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  margin: 35px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.header-logo{
+    display: flex;
+    flex-basis: 60%;
+}
+.header-nav{
+    display: flex;
+    gap: 35px;
+    flex-basis: 100%;
+   justify-content: flex-end;
+    
+}
+
+a{ 
+    color:  #FF6060;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+ a:hover{
+    text-decoration: underline;
+ }
+
+ @media screen and (max-width:1024px){
+    .header-container{
+        margin: 5px;
+    }
+ }

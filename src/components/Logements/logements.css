@@ -1,0 +1,41 @@
+.logement-contenant {
+    display: flex;
+    flex-direction: row;
+    background-color:#F6F6F6;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 50px;
+    border-radius: 35px;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+.product-components{
+    display: flex;
+    height: 340px;
+    width: 340px;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+}
+
+.product-cover img {
+    height: 340px;
+    width: 340px;
+    object-fit: cover;
+    opacity: 0.8;   
+}
+.product-title {
+    display: flex;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    color: #F6F6F6;
+    font-weight: 700;
+    padding: 10px;
+}
+.product-img{
+    background: linear-gradient(transparent,rgba(0,0,0,.5));
+}
+
